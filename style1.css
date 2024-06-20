@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+
+h1 {
+    text-indent: 1em;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    border-style: solid;
+    border-width: 5px;
+    width: 800px;
+    margin: 100px auto;
+}
+
+
+/*nav start*/
+nav.Start {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    border-style: solid;
+    border-width: 5px;
+    width: 175px;
+    margin: 100px auto; 
+}
+
+nav.Start a:visited, nav.Start a:link {
+    color: black;
+    text-decoration: none;
+}
+
+nav.Start a:hover, nav.Start a:active {
+    background-color: black;
+    color: white;
+}
+
+div.Icon {
+    margin: 10px;
+    border: 2px solid #ccc;
+    float: left;
+    width: 500px;
+}
+
+div.Icon:hover {
+    border: 1px solid #777;
+}
+
+div.Icon img {
+    width: 100%;
+    height: 100%;
+}
+
+div.desc {
+    padding: 100px;
+    text-align: center;
+    font-size: 30px;
+}

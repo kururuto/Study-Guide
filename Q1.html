@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <div class="question">
+            <h1>What is Behavioral studies?</h1>
+        </div>
+        <ul class="choices" id="choices">
+            <li onclick="checkAnswer(this, 'A')"><a href="Q2.html">A. Analyzing how producers construct texts</a></li>
+            <li onclick="checkAnswer(this, 'B')"><a href="Q2.html">B. Understanding context of the language, being able to break down text.</a></li>
+            <li onclick="checkAnswer(this, 'C')"><a href="Q2.html">C. Locating generalizable patterns in text or language.</a></li>
+            <li onclick="checkAnswer(this, 'D')"><a href="Q2.html">D. IDK</a></li>
+        </ul>
+    </div>
+    <div id="score">Score: 0</div>
+
+    <script>
+        // Initialize the score to 0 at the start of the quiz
+        localStorage.setItem('score', 0);
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
