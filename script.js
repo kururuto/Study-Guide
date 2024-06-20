@@ -16,6 +16,9 @@ function checkAnswer(element, answer, nextPage) {
         (document.title === 'Q5' && answer === 'A')) {
         score++;
     }
+    else {
+        score=score;
+    }
     localStorage.setItem('score', score);
     document.getElementById('score').innerText = 'Score: ' + score;
     
